@@ -189,7 +189,7 @@ spec:
     spec:
       containers:
       - name: order
-        image: surajmolke/order-service
+        image: rutz182/order-service
         ports:
         - containerPort: 5000
         volumeMounts:
